@@ -1,0 +1,32 @@
+{
+  "name": "loginNodeJs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseFelipe7/loginNodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseFelipe7/loginNodeJs/issues"
+  },
+  "homepage": "https://github.com/joseFelipe7/loginNodeJs#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "cookie-parse": "^0.4.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.4.0",
+    "method-override": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
