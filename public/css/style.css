@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.register-user{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, #C21646 , #F28F17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container-register{
+    display: flex;
+    width: 600px;
+    box-shadow: 10px 15px 45px #000000;
+    border-radius: 10px;
+}
+.left-register, .rigth-register{
+    display: flex;
+    flex-direction: column;
+}
+.left-register{
+    align-items: center;
+    background-color: #F28F17;
+    border-radius: 10px 0px 0px 10px;
+    width: 40%;
+}
+.left-register *{
+    color: #ffffff;
+}
+.left-register h1{
+    color: #ffffff;
+    border-bottom: solid 1px;
+    
+}
+.tools-logo{
+    width: 120px;
+}
+.icon-login{
+    width: 200px;
+}
+.left-register p{
+    font-size: 14px;
+    text-align: center;
+}
+.right-register{
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border-radius: 0px 10px 10px 0px;
+    width: 60%;
+    padding: 30px;
+}
+.right-register form{
+    display: flex;
+    flex-direction: column;
+}
+.title-input{
+    font-size: 12px;
+    color: #bbbbbb;
+}
+.input-text{
+    padding: 10px;
+    border: none;
+    border-bottom: solid 1px #bbbbbb;
+    margin-bottom: 20px;
+}
+.input-text:focus{
+    outline: none;
+    border-color: #F28F17;   
+}
+.btn-register{
+    border-radius: 6px;
+    border: none;
+    color: #ffffff;
+    background-color: #C21646;
+    padding: 15px;
+}
+.alert-register{
+    margin-top: 4px;
+    font-size: 12px;
+    color: #bbbbbb;
+}
+.alert-register a{
+    text-decoration: none;
+    color: #C21646;
+}
+.alert-register a:hover{
+    text-decoration: none;
+    color: #F28F17;
+}
+@media(max-width:610px){
+    .form-container-register{
+        flex-direction: column; 
+        max-width: 300px;
+    }
+    .left-register{
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .left-register img{
+        display: none;
+        
+    }
+    .right-register{
+        width: 100%;
+        padding: 0px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .right-register form{
+        padding: 30px;
+    }
+    
+}
